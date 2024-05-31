@@ -18,3 +18,7 @@ secure-forms-app/
 - `js/scripts.js`: Contiene el JavaScript necesario para las validaciones y la lógica del formulario.
 - `README.md`: Descripción del proyecto y su estructura.
 
+# Vulnerabilidad
+Actualmente, las credenciales de usuario y contraseña se validan en el lado del cliente, lo que es inseguro porque el código JavaScript se puede ver y manipular fácilmente. Para solucionar esta vulnerabilidad, las validaciones y la autenticación deberían realizarse en el servidor. Esto implicaría enviar las credenciales ingresadas al servidor a través de una conexión segura (por ejemplo, HTTPS) y comparar las credenciales con una base de datos segura en el servidor. Esto evitaría que los usuarios malintencionados puedan ver y manipular el código de validación.
+
+
