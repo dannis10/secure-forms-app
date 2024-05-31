@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
             // Comprobación de credenciales
             if (username === 'administrador' && password === 'p@$$w0rd') {
-                alert('Autenticación correcta!!!');
+                alert('Fin de la parte del login de la práctica');
             } else {
                 alert('Nombre de usuario o contraseña incorrectos.');
             }
@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
             // Simulación de comprobación de contraseña actual y cambio de contraseña
             if (currentPassword === 'p@$$w0rd') {
-                alert('Correcto!!!');
+                alert('Fin de la parte de la contraseña de la práctica');
             } else {
                 alert('La contraseña actual es incorrecta.');
             }
